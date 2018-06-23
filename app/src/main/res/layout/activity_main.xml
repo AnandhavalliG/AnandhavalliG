@@ -155,6 +155,16 @@
             android:layout_marginBottom="10dp"
             android:text="\u2022 Member of SASTRA Student EXNORA.\n\u2022 Member of Computer Society of India (CSI).\n\u2022 Published multiple android applications on Google Play Store." />
 
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="View Google Play Developer Profile"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="0.2dp"
