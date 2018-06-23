@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="B.Tech \u2014 Information Technology" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="E-Mail: anandhavalli0404@gmail.com" />
+
+        <TextView
+            android:id="@+id/objective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Objective"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/obj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hyphenationFrequency="none"
+            android:text="To enhance and utilize my technical skills and knowledge creatively involved with the system that effectively contributes to the growth of an organization with considerable advanced opportunities." />
+
+        <TextView
+            android:id="@+id/academics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Academic Profile"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Academics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="\u2022 Completed SSLC in 2013 with 96.8%.\n\u2022 Completed HSC in 2015 with 95%.\n\u2022 Will be completing B.TECH \ u2014 IT in 2019. CGPA till 5th Sem \u2014 7.1132." />
+
+        <TextView
+            android:id="@+id/interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Areas of Interest"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="\u2022 Data Structures\n\u2022 Design and Analysis of Algorithm\n\u2022 Database\n\u2022 Android Application Development" />
+
+        <TextView
+            android:id="@+id/skills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Technical Skills"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/techSkills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="\u2022 C, C++, JAVA, Android \n\u2022 Python, HTML, CSS, JavaScript \n\u2022 SQL, Postgres SQL " />
+
+        <TextView
+            android:id="@+id/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="IDEs and Tools"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/toolsSkills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="\u2022 Eclipse \n\u2022 Android Studio \n\u2022 Git, GitHub \n\u2022 NetBeans \n\u2022 Turbo C++ \n\u2022 Rational Rose \n\u2022 Microsoft Office Suite" />
+
+        <TextView
+            android:id="@+id/intern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Internships and Inplant Training"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/internships"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="\u2022 Attended internship at “Infogro Technologies” Chennai on “Android Development” (November 2016).\n\u2022 Attended Implant training at UNIQ Technologies, Chennai on “Web Development” (December 2017).\n\u2022 Attended Workshop at PSG Institute of technology, Coimbatore on “Laughing mirrors of JAVA” (September 2017).\n\u2022 Attended Internship at BSNL on “Networking” held during (November2017)." />
+
+        <TextView
+            android:id="@+id/certification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Certifications"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/certifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="\u2022 Completed Agile/Scrum Methodology Certification on Udemy.\n\u2022 Completed Android Application Development course on Udemy.\n\u2022 Completed certification course on “Diploma In Fundamentals of Hardware Technology" />
+
+        <TextView
+            android:id="@+id/cocurricular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Extra-Curricular Activities"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Extracurricular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="\u2022 Member of SASTRA Student EXNORA.\n\u2022 Member of Computer Society of India (CSI).\n\u2022 Published multiple android applications on Google Play Store." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray"
+            android:paddingBottom="4dp"
+            android:paddingRight="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:paddingBottom="4dp"
+            android:paddingRight="8dp"
+            android:text="Copyright Anandhavalli G, \u00A9 2018"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</ScrollView>
